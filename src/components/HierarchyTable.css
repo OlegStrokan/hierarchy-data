@@ -1,0 +1,51 @@
+/* App.css (or any other CSS file you prefer) */
+
+/* Hierarchy Table styles */
+.hierarchy-table {
+  width: 1000px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #d5d3fb;
+}
+
+.hierarchy-table th,
+.hierarchy-table td {
+  margin-top: 100px;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.hierarchy-table th {
+  background-color: #f2f2f2;
+}
+
+/* Hierarchy Row styles */
+.hierarchy-row:hover {
+  background-color: #f9f9f9;
+}
+
+/* Remove button styles */
+.remove-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: #7171f0;
+}
+
+.button {
+  background: #3737dd;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
